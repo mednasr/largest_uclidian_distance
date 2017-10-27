@@ -1,12 +1,12 @@
 # largest Euclidian distance
-## At WRLD we are bringing maps to life - it's important for us to be able to analyze data about the map feat#ures.
+### At WRLD we are bringing maps to life - it's important for us to be able to analyze data about the map features.
 
-## Consider a map that has the following properties;
+### Consider a map that has the following properties;
 	- the map is two dimensional
 	- the map is perfectly square with dimensions 10000000x10000000
 	- the map has an associated set of many features
 	- the map does not "wrap around"
-## Each feature on the map is described by a 2D coordinate in the range (0, 0) to (10000000, 10000000).
+### Each feature on the map is described by a 2D coordinate in the range (0, 0) to (10000000, 10000000).
 
 We would like to find the most isolated feature on the map, where the "most isolated feature" is the feature that is
 furthest (largest Euclidian distance) from any other feature. Because the map does not "wrap around", this should be a
